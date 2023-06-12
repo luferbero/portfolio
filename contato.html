@@ -32,12 +32,12 @@
         <div class="ml50">
             <form>
                 <label for="nome">Nome:</label> <br>
-                <input type="text" id="nome">
-                <br>
+                <input type="text" id="nome" onkeyup = 'validaNome()'>
+                <div id='txtNome'></div>
                 <br>
                 <label for="email">E-mail:</label> <br>
-                <input type="email" id="email">
-                <br>
+                <input type="email" id="email" onkeyup = 'validaEmail()'>
+                <div id='txtEmail'></div>
                 <br>
                 <label for="assunto">Assunto:</label> <br>
                 <textarea name="assunto" id="assunto" cols="60" rows="5"> </textarea>
@@ -51,15 +51,17 @@
     <hr>
     <footer>
         <div class="container">
-            <a href="https://www.linkedin.com/in/luiz-fernando-benedito-rodrigues-371709149/">
+            <a href="https://www.linkedin.com/in/luiz-fernando-benedito-rodrigues-371709149/" target="_blank">
                 <img class="tm-social p30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="Linkedin">
             </a>
-            <a href="https://github.com/luferbero">
+            <a href="https://github.com/luferbero" target="_blank">
                 <img class="tm-social p30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
             </a>
         </div>
         <p class="center">Todos os direitos reservados: Luiz Fernando - 2023 &copy;</p>
     </footer>
     
+    <script src="assets/js/script.js"></script>
+
 </body>
 </html>
