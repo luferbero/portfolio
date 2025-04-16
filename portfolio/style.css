@@ -1,0 +1,52 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* garante que fique acima dos outros elementos */
+    background-color: white; /* importante pra não ficar transparente */
+  }
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    justify-content: center;
+}
+
+.menu a {
+    color: black;
+    text-transform: uppercase;
+}
+
+.sobremim {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 2rem;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.sobre {
+    flex: 1;
+}
+
+.sobremim img {
+    max-width: 100%;
+    height: auto;
+    width: 300px;
+    border-radius: 8px;
+}
